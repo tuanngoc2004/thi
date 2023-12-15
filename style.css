@@ -1,0 +1,60 @@
+header {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .sidebar {
+    background-color: #f1f1f1;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  .sidebar a:hover {
+    background-color: #ddd;
+  }
+
+  /* CSS for content */
+  .content {
+    margin-left: 200px;
+    padding: 20px;
+  }
+
+  /* CSS for table */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
